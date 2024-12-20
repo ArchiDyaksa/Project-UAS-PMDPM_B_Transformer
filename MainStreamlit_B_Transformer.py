@@ -11,7 +11,7 @@ from pathlib import Path
 from st_social_media_links import SocialMediaIcons
 
 # Load the pre-trained model
-model = load_model(r'E:\streamlit\BestModel_MOBILENET_Transformer.h5')  # Update with your model path
+model = r'BestModel_MOBILENET_Transformer.h5'  # Update with your model path
 class_names = ['Busuk', 'Matang', 'Mentah']
 
 # Function to preprocess and classify image
@@ -254,7 +254,7 @@ st.markdown(copyright_html, unsafe_allow_html=True)
 
 main_social_media_html = """
 <div style="text-align: center; margin-top: 10px;">
-    <a href="https://github.com/ANTIMOLE/Project-UAS-Sementara" target="_blank">
+    <a href="https://github.com/ArchiDyaksa/Project-UAS-PMDPM_B_Transformer" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="width: 40px; margin: 10px;">
     </a>
     <a href="https://youtu.be/dQw4w9WgXcQ?si=xq0SADs2r9-txQOj" target="_blank">
