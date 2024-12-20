@@ -254,7 +254,7 @@ st.markdown(copyright_html, unsafe_allow_html=True)
 
 main_social_media_html = """
 <div style="text-align: center; margin-top: 10px;">
-    <a href="https://github.com/ANTIMOLE/Project-UAS-Sementara" target="_blank">
+    <a href="https://github.com/ArchiDyaksa/Project-UAS-PMDPM_B_Transformer" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="width: 40px; margin: 10px;">
     </a>
     <a href="https://youtu.be/dQw4w9WgXcQ?si=xq0SADs2r9-txQOj" target="_blank">
