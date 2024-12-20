@@ -9,7 +9,9 @@ from pathlib import Path
 from st_social_media_links import SocialMediaIcons
 
 # Load the pre-trained model
-model = r'BestModel_MOBILENET_Transformer.h5'  # Update with your model path
+# Load the pre-trained model
+model_path = 'BestModel_MOBILENET_Transformer.h5'  # Update with your model path
+model = tf.keras.models.load_model(model_path)  # Load the model
 class_names = ['Busuk', 'Matang', 'Mentah']
 
 # Function to preprocess and classify image
