@@ -9,8 +9,7 @@ from pathlib import Path
 from st_social_media_links import SocialMediaIcons
 
 # Load the pre-trained model
-# Load the pre-trained model
-model_path = 'BestModel_MOBILENET_Transformer.h5'  # Update with your model path
+model = 'BestModel_MOBILENET_Transformer.h5'  # Update with your model path
 class_names = ['Busuk', 'Matang', 'Mentah']
 
 # Function to preprocess and classify image
