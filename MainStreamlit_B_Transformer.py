@@ -9,9 +9,13 @@ from pathlib import Path
 from st_social_media_links import SocialMediaIcons
 
 # Load the pre-trained model
-model = 'BestModel_MOBILENET_Transformer.h5'  # Update with your model path
+# Load the pre-trained model
+model_path = 'BestModel_MOBILENET_Transformer.h5'  # Update with your model path
+model = tf.keras.models.load_model(model_path)  # Load the model
+
 class_names = ['Busuk', 'Matang', 'Mentah']
 
+# Function to preprocess and classify image
 # Function to preprocess and classify image
 def classify_image(image_path):
     try:
@@ -21,9 +25,9 @@ def classify_image(image_path):
         input_image_exp_dim = tf.expand_dims(input_image_array, 0)
 
         # Predict using the model
-        predictions = model.predict(input_image_exp_dim)
-        result = tf.nn.softmax(predictions[0])  # Apply softmax for probability
-        
+        predictions = model.predict(input_image_exp_dim)  # Use loaded model
+        result = tf.nn.softmax(predictions[0])  # Apply softmax for probabilities
+
         # Get class with highest confidence
         class_idx = np.argmax(result)
         confidence_scores = result.numpy()
