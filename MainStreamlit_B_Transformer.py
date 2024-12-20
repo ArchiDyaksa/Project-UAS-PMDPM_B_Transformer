@@ -260,6 +260,9 @@ main_social_media_html = """
     <a href="https://youtu.be/xvFZjo5PgG0?si=mCeyRtZCgSqE165w" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 40px; margin: 10px;">
     </a>
+    <a href="https://www.facebook.com/your-page-name" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="width: 40px; margin: 10px;">
+    </a>
 </div>
 """
 st.markdown(main_social_media_html, unsafe_allow_html=True)
