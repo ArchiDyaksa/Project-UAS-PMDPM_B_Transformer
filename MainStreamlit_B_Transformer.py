@@ -237,7 +237,7 @@ if uploaded_files:
         
 # Tambahkan copyright di bagian bawah
 copyright_html = """
-<div style="text-align: center; margin-top: 5px; font-size: 20px; font-wight: bold; color: #fbb99f; opacity: 1;">
+<div style="text-align: center; margin-top: 5px; font-size: 20px; font-wight: bold; color: black; opacity: 1;">
     © 2024 Transformer. All Rights Reserved. <br>
     Frans Daniel Rajagukguk / 220711826 <br>
     Angello Khara Sitanggang / 220711833 <br>
