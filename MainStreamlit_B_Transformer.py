@@ -257,7 +257,7 @@ main_social_media_html = """
     <a href="https://github.com/ArchiDyaksa/Project-UAS-PMDPM_B_Transformer" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="width: 40px; margin: 10px;">
     </a>
-    <a href="https://youtu.be/dQw4w9WgXcQ?si=xq0SADs2r9-txQOj" target="_blank">
+    <a href="https://youtu.be/xvFZjo5PgG0?si=mCeyRtZCgSqE165w" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 40px; margin: 10px;">
     </a>
 </div>
