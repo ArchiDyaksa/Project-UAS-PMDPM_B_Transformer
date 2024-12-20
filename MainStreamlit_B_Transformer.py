@@ -205,7 +205,7 @@ with col2:
                         # Define colors for the bar and label
                         primary_color = "#000000"  # Black for "Busuk"
                         secondary_color = "#FFFF00"  # Yellow for "Matang"
-                        tertiary_color = "00FF00"  # Green for "Mentah"
+                        tertiary_color = "#00FF00"  # Green for "Mentah"
                         
                         if label == "Busuk":
                             label_color = primary_color
