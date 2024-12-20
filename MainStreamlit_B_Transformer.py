@@ -168,7 +168,7 @@ uploaded_files = st.file_uploader(
 if uploaded_files:
     for uploaded_file in uploaded_files:
         image = Image.open(uploaded_file)
-        st.sidebar.image(image, caption=f"{uploaded_file.name}", use_column_width=True)
+        st.sidebar.image(image, caption=f"{uploaded_file.name}", use_container_width=True)
     
 # Style for the prediction button
 style_button = """
@@ -233,7 +233,7 @@ if uploaded_files:
     st.write("### Preview Gambar")
     for uploaded_file in uploaded_files:
         image = Image.open(uploaded_file)
-        st.image(image, caption=f"{uploaded_file.name}", use_column_width=True)
+        st.image(image, caption=f"{uploaded_file.name}", use_container_width=True)
         
 # Tambahkan copyright di bagian bawah
 copyright_html = """
