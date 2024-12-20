@@ -4,8 +4,6 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
-from datetime import datetime, timedelta
-import time
 import base64
 from pathlib import Path
 from st_social_media_links import SocialMediaIcons
