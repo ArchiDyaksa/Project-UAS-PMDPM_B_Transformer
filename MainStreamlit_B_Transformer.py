@@ -78,7 +78,7 @@ run_fire_animation()
 st.balloons()
 
 # Change Background Streamlit
-set_background(r"E:\streamlit\background1.gif")
+set_background(r"background1.gif")
 
 # Add custom background with snow animation
 background = """
