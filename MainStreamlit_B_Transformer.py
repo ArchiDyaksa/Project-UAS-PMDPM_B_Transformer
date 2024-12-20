@@ -75,8 +75,6 @@ def run_fire_animation():
 # Run fire animation
 run_fire_animation()
 
-st.balloons()
-
 # Change Background Streamlit
 set_background(r"background1.gif")
 
